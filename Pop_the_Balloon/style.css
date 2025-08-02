@@ -1,0 +1,47 @@
+/* style.css */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: rgb(197, 233, 161);
+}
+
+main {
+    margin-top: 10px;
+}
+
+.headline-container {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+
+#scoreBoard {
+    height: 50px;
+    width: 300px;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    font-size: 1.5em;
+    background-color: rgb(227, 144, 144);
+    border: 2px solid black;
+    border-radius: 2px;
+}
+
+#headline-h1 {
+    font-size: 3em;
+}
+
+#balloon {
+    position: absolute;
+    -webkit-transition: all 0.2s;
+    transition: all 0.2s;
+    height: 160px;
+}
