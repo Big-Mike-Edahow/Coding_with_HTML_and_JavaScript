@@ -1,0 +1,41 @@
+/* style.css */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html {
+    font-size: 14pt;
+}
+
+body {
+    background-color: rgb(230, 181, 230);
+}
+
+main {
+    margin-top: 30px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 100%;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+
+#gameBoard {
+    width: 640px;
+    height: 480px;
+    box-sizing: content-box;
+    background: url('./images/sea.png');
+    border: 2px solid black;
+    box-shadow: 2px 2px 2px black;
+}
+
+#sprites {
+    display: none;
+}
